@@ -161,15 +161,6 @@
   background-repeat: no-repeat;
 }
 
-.frame5 {
-  height: 114px;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 16px;
-}
-
 .frame245 {
   height: 62px;
   width: 100%;
@@ -314,6 +305,20 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
+}
+.all {
+  display: flex;
+  width: 405px;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+.flexend {
+  display: flex;
+  width: 405px;
+  flex-direction: column;
+  gap: 16px;
+  align-content: flex-end;
 }
 .headersec {
   font-family: Inter;
@@ -819,11 +824,13 @@
   .background3 {
     background-image: url(/pinkapple.png);
     background-position: center;
-    background-size: cover;
+    background-size: fit;
     background-repeat: no-repeat;
+    width: 100%;
+    height: 692px;
   }
   .background1 {
-    background-image: url(/ip16prodesktop.png);
+    background-image: url(/iphone16prodesktop.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -911,6 +918,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    width: 942px;
     height: 580px;
   }
   .ground5 {
@@ -918,6 +926,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    width: 942px;
     height: 580px;
   }
   .ground6 {
