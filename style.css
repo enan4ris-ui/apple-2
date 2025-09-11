@@ -34,7 +34,6 @@
 
 .font {
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
   line-height: 20px;
   text-align: center;
@@ -99,7 +98,6 @@
   text-align: center;
   font-family: Inter;
   font-size: 30px;
-  font-style: normal;
   font-weight: 700;
 }
 
@@ -174,7 +172,6 @@
 .ffont {
   color: #f5f5f7;
   font-size: 30px;
-  font-style: normal;
   font-weight: 700;
   line-height: 36px;
 }
@@ -189,7 +186,6 @@
 .both {
   text-align: center;
   font-family: "inter";
-  font-style: normal;
 }
 
 .lmcolor {
@@ -204,14 +200,13 @@
   text-align: center;
   font-family: Inter;
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
   line-height: 20px;
 }
 
 .letter {
-  width: 66;
-  height: 36;
+  width: 66px;
+  height: 36px;
   border-radius: 999px;
   border-width: 1px;
   padding-top: 8px;
@@ -223,8 +218,8 @@
 }
 
 .learnmoreey {
-  width: 107;
-  height: 36;
+  width: 107px;
+  height: 36px;
   border-radius: 999px;
   padding-top: 8px;
   padding-right: 16px;
@@ -253,7 +248,6 @@
 
 .frame4 {
   display: flex;
-  width: 241px;
   height: 130px;
   flex-direction: column;
   align-items: center;
@@ -264,7 +258,6 @@
   display: flex;
   text-align: center;
   font-family: Inter;
-  font-style: normal;
 }
 .spacingpage2 {
   display: flex;
@@ -432,6 +425,8 @@
   font-family: Inter;
   font-size: 28px;
   font-weight: 700;
+  width: 100%;
+  align-content: flex-start;
 }
 
 .series10 {
@@ -496,7 +491,6 @@
   text-align: center;
   font-family: Inter;
   font-size: 30px;
-  font-style: normal;
   font-weight: 700;
   line-height: 36px;
   align-self: stretch;
@@ -526,7 +520,6 @@
   text-align: center;
   font-family: Inter;
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
   line-height: 20px;
 }
@@ -572,7 +565,6 @@
   text-align: center;
   font-family: "Helvetica Neue";
   font-size: 30px;
-  font-style: normal;
   font-weight: 700;
   line-height: 36px;
 }
@@ -582,7 +574,6 @@
   text-align: center;
   font-family: Inter;
   font-size: 18px;
-  font-style: normal;
   font-weight: 400;
   line-height: 20px;
   align-self: stretch;
@@ -611,7 +602,6 @@
   text-align: center;
   font-family: Inter;
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
   line-height: 20px;
 }
@@ -739,6 +729,7 @@
   width: 417px;
   height: 236px;
 }
+
 /* --------- */
 @media (max-width: 700px) and (max-width: 769px) {
   .desktopscrbottom {
@@ -826,19 +817,22 @@
     background-position: center;
     background-size: fit;
     background-repeat: no-repeat;
-    width: 100%;
+    width: 1920px;
     height: 692px;
   }
   .background1 {
-    background-image: url(/iphone16prodesktop.png);
+    background: url(/iphone16prodesktop.png) lightgray 0px 0px / 100% 100%
+      no-repeat;
     background-position: center;
     background-size: cover;
+    width: 1920px;
     background-repeat: no-repeat;
   }
   .background2 {
     background-image: url(/iphone16desktop.png);
     background-position: center;
     background-size: cover;
+    width: 1920px;
     background-repeat: no-repeat;
   }
   .background3 {
@@ -852,7 +846,6 @@
     text-align: center;
     font-family: Inter;
     font-size: 12px;
-    font-style: normal;
     font-weight: 400;
     line-height: 60px;
     letter-spacing: -0.28px;
